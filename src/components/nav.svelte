@@ -1,11 +1,11 @@
 <nav>
 	<div class="logo">
-		<h4>Best movies store</h4>
+		<a href="/"> Best movies store </a>
 	</div>
 
 	<ul class="navi-links">
 		<li>
-			<a href="#home"> Home </a>
+			<a href="/"> Home </a>
 		</li>
 		<li>
 			<a href="#about"> About </a>
@@ -37,12 +37,13 @@
 		z-index: 1000;
 	}
 
-	.logo {
+	.logo a {
 		color: aliceblue;
 		text-transform: uppercase;
 		letter-spacing: 5px;
 		font-size: 1.4rem;
 		margin-left: 10vw;
+		text-decoration: none;
 	}
 
 	.navi-links {
